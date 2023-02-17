@@ -1,11 +1,42 @@
 .App {
   text-align: center;
+  border: 2px solid blueviolet;
+  background-color: aliceblue;
+  width: 60%;
+  height: 60%;
+  margin:0 auto;
+}
+.Parent-Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.movieForm{
+  border: 2px black solid;
+  background-color: aquamarine;
+margin-right: 120px;
 }
+.space-x{
+  padding: 30px;
+
+
+}
+input{
+  padding: 10px;
+}
+.btn{
+  padding: 10px;
+  background-color:palegreen;
+}
+.Parent-List{
+  display: flex;
+  justify-content: space-between;
+  width: 166%;
+    margin-top: 58px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
